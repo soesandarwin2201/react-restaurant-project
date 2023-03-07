@@ -97,5 +97,20 @@ body {
   font-weight: 700;
 }
 
+.footer-container {
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+  margin-inline: .5rem;
+  padding: 1rem;
+}
+
 
 
