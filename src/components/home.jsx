@@ -11,7 +11,7 @@ const HomePage = () => {
             <input
               type='text'
               className='form-control'
-              placeholder='Cuisine restaurant name...'
+              placeholder='🍴 Cuisine restaurant name...'
             />
           </div>
           <div className='form-item'>
@@ -19,7 +19,7 @@ const HomePage = () => {
             <input
               type='text'
               className='form-control'
-              placeholder='search for the location'
+              placeholder='🛸 search for the location'
             />
           </div>
           <div className='form-item'>
