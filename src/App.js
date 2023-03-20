@@ -1,7 +1,7 @@
 import Header from './components/header';
 import Footer from './components/footer';
 import HomePage from './components/home';
-// import Restaurant from './components/restaurant/restaurant';
+import RestaurantList from "./components/restaurant/restaurantList";
 
 function App() {
   return (
@@ -9,7 +9,6 @@ function App() {
       <Header />
       <HomePage />
       <Footer />
-      {/* <Restaurant /> */}
     </>
   );
 }
