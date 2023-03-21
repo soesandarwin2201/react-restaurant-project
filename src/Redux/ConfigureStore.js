@@ -3,7 +3,7 @@ import RestaurantListReducer from './getData'
 
 const store = configureStore({ 
  reducer: {
-  resturants: RestaurantListReducer,
+  restaurant: RestaurantListReducer,
  },
 });
 

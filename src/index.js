@@ -5,14 +5,11 @@ import store from './Redux/ConfigureStore';
 import { Provider } from 'react-redux';
 import App from './App';
 
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
-  <Provider store={stor
-  }>
-  <App />
+  <Provider store={store}>
+    <App />
   </Provider>
-    
   </>,
 );
