@@ -16,7 +16,7 @@
 }
 
 body {
-  background-color: var(--white-color);
+  background-color: var(--model-bgcolor);
   font-size: 0.89rem;
   font-family: 'Roboto', sans-serif;
 }
@@ -204,3 +204,64 @@ body {
   text-align: center;
   margin-top: 0.8rem;
 }
+
+.restaurant-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-left: 3rem;
+}
+
+.title {
+  text-align: center;
+  font-size: 2rem;
+  margin: 2rem;
+}
+
+.cart-container {
+  width: 17.5%;
+  height: 400px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  margin: .5rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  border-radius: 4px;
+}
+
+.img-container {
+  flex-basis: 50%;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.cart-info {
+  flex-basis: 50%;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.food-type {
+  font-size: .75rem;
+  font-weight: 200;
+  padding: 1rem;
+  text-transform: capitalize;
+  margin-inline: .5rem;
+}
+
+.food-country {
+  margin-left: 1rem;
+}
+
+.food-title {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1rem;
+  margin: .5rem;
+}
+
+.average-price {
+  margin: .5rem;
+}
+
